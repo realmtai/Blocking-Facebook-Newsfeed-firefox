@@ -30,6 +30,7 @@ window.addEventListener('load', function () {
     //console.log('running');
     document.getElementById(streamID).style.visibility = 'hidden';
     document.getElementById('rightCol').style.visibility = 'hidden';
+    document.getElementById('pagelet_composer').style.visibility = 'hidden';
   });
   fct();
   document.getElementById('globalContainer').style.visibility = 'visible';
@@ -37,3 +38,4 @@ window.addEventListener('load', function () {
 }, false);
 
 document.getElementById('globalContainer').style.visibility = 'hidden';
+
